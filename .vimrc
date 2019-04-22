@@ -15,6 +15,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'valloric/youcompleteme'
 Plug 'leafgarland/typescript-vim'
+Plug 'stanangeloff/php.vim'
 call plug#end()
 
 syntax on
