@@ -6,6 +6,7 @@ set bs=2
 set columns=999
 set lines=999 
 set number
+
 call plug#begin('~\.vim\plugins')
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree',{'on':'NERDTreeToggle'}
@@ -13,6 +14,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'valloric/youcompleteme'
+Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 syntax on
@@ -22,3 +24,7 @@ map <C-o> :NERDTreeToggle<CR>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+set hlsearch
+hi Search ctermbg=LightYellow
+hi Search ctermfg=Black
+set ignorecase
