@@ -14,8 +14,8 @@ Plug 'flazz/vim-colorschemes'
 Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'valloric/youcompleteme'
-Plug 'leafgarland/typescript-vim'
 Plug 'stanangeloff/php.vim'
+Plug 'shawncplus/phpcomplete.vim'
 call plug#end()
 
 syntax on
